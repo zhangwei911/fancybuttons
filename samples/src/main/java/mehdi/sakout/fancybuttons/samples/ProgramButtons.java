@@ -27,7 +27,6 @@ public class ProgramButtons extends ActionBarActivity {
         facebookLoginBtn.setRadius(5);
         facebookLoginBtn.setIconResource("\uf082");
         facebookLoginBtn.setIconPosition(FancyButton.POSITION_LEFT);
-        facebookLoginBtn.setFontIconSize(30);
 
         FancyButton foursquareBtn = new FancyButton(this);
         foursquareBtn.setText("Check in");
@@ -37,7 +36,6 @@ public class ProgramButtons extends ActionBarActivity {
         foursquareBtn.setRadius(5);
         foursquareBtn.setIconResource("\uf180");
         foursquareBtn.setIconPosition(FancyButton.POSITION_TOP);
-        foursquareBtn.setFontIconSize(30);
 
         FancyButton installBtn = new FancyButton(this);
         installBtn.setText("Google play install");
