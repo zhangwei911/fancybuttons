@@ -3,7 +3,6 @@ package mehdi.sakout.fancybuttons.samples;
 import android.app.ListActivity;
 import android.content.Intent;
 import android.graphics.Color;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.text.Html;
 import android.view.Menu;

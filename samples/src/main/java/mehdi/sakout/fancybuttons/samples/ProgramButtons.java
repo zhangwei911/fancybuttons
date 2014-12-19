@@ -1,7 +1,7 @@
 package mehdi.sakout.fancybuttons.samples;
 
+import android.app.Activity;
 import android.graphics.Color;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -11,7 +11,7 @@ import android.widget.LinearLayout;
 import mehdi.sakout.fancybuttons.FancyButton;
 
 
-public class ProgramButtons extends ActionBarActivity {
+public class ProgramButtons extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +50,6 @@ public class ProgramButtons extends ActionBarActivity {
         signupBtn.setBackgroundColor(Color.parseColor("#ff8800"));
         signupBtn.setFocusBackgroundColor(Color.parseColor("#ffa43c"));
         signupBtn.setTextSize(20);
-        signupBtn.setCustomTextFont("robotothin.ttf");
 
         LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT);
         layoutParams.setMargins(0,0,0,10);
